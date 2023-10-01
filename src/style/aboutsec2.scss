@@ -1,0 +1,35 @@
+#aboutsec2 {
+    background-color: $color4;
+    padding: 100px;
+    padding-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    // gap: 20px;
+    width: 100%;
+
+    >h1 {
+        font-size: $font2_5;
+        font-family: $family-1;
+        color: $color1;
+        margin-bottom: 20px;
+
+        >span {
+            font-size: $font2_5;
+            font-family: $family-1;
+            color: $color5;
+        }
+    }
+
+    >p {
+        font-size: $font5;
+        font-weight: 500;
+        color: $color1;
+        width: 80%;
+    }
+
+    >iframe {
+        width:640px ;
+        height:564px;
+        border: none;
+    }
+}

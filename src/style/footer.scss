@@ -1,0 +1,66 @@
+#footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #266980;
+    padding: 50px 100px;
+
+    p {
+        font-size: $font5;
+        font-weight: 300;
+        color: $color3;
+
+        &:hover{
+            color:$color2 ;
+        }
+    }
+
+    >div {
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+
+        >h2 {
+            font-size: $font3;
+            font-weight: 600;
+            font-family: $family-1;
+            color: $color3;
+        }
+
+        >a {
+            >svg {
+                color: $color3;
+                font-size: 25px;
+                &:hover{
+                    color:$color2 ;
+                }
+            }
+        }
+
+
+        >a {
+            font-size: $font5;
+            font-weight: 600;
+            color: $color1;
+
+            >button {
+                padding: 15px 20px;
+                font-size: $font5;
+                font-weight: 600;
+                color: $color1;
+                border: none;
+                background-color: $color2;
+                transition-duration: 400ms;
+
+                &:hover {
+                    cursor: pointer;
+                    transform: translateY(-5px);
+                }
+            }
+        }
+    }
+
+    >:nth-child(4) {
+        width: 25%;
+        line-height: 25px;
+    }
+}

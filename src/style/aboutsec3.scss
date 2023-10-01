@@ -1,0 +1,50 @@
+#aboutsec3{
+    width: 100%;
+    padding: 70px;
+    height: fit-content;
+    display: flex;
+    gap: 50px;
+
+    >img{
+        width: 20%;
+        height: 350px;
+    }
+    >aside{
+        border-top: 2px solid $color1;
+        display: flex;
+        width: 100%;
+        gap: 50px;
+
+        >div{
+            width: 50%;
+            margin-top: 35px;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            >svg{
+                font-size: 40px;
+                color: $color1;
+            }
+
+            >h2{
+                font-size: $font2_5;
+                font-family: $family-1;
+                color: $color1;
+            }
+
+            >b{
+                color: $color1;
+                font-size: $font5;
+            }
+
+            >p, li{
+                color: $color1;
+                font-size: $font5;
+                font-weight: 500;
+                line-height: 30px;
+            }
+
+            
+        }
+    }
+}

@@ -1,0 +1,29 @@
+@import 'static.scss';
+@import 'home.scss';
+@import 'navbar.scss';
+@import 'section1.scss';
+@import 'section2.scss';
+@import 'section3.scss';
+@import 'section4.scss';
+@import 'section5.scss';
+@import 'section6.scss';
+@import 'section7.scss';
+@import 'footer.scss';
+
+@import 'aboutsec2.scss';
+@import 'aboutsec3.scss';
+
+@import 'accordian.scss';
+@import 'bookings.scss';
+
+
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: $family-2;
+}

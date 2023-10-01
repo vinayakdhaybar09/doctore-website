@@ -1,0 +1,68 @@
+#section2 {
+    background: url('../assets//blue-bg.jpg');
+    height: 100vh;
+    width: 100%;
+    margin-top: -30vh;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+
+    .container {
+        display: flex;
+        margin: 0 70px;
+        padding: 70px;
+        border: 1px solid white;
+        height: fit-content;
+        border-top-right-radius: 80px;
+        border-bottom-left-radius: 80px;
+
+        >main {
+            width: 50%;
+            color: $color3;
+            display: flex;
+            flex-direction: column;
+            gap: 40px;
+
+            >h1 {
+                font-family: $family-1;
+                font-size: $font2;
+            }
+
+            >p {
+                font-size: $font5;
+                line-height: 25px;
+            }
+
+            >section {
+                p {
+                    font-size: $font5;
+                    line-height: 25px;
+
+                    >span {
+                        color: $color2;
+                        margin-right: 5px;
+                    }
+                }
+            }
+
+            >div {
+                border-left: 3px solid $color2;
+                font-size: $font4;
+                padding-left: 20px;
+                line-height: 25px;
+            }
+        }
+
+        >div {
+            width: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            >img {
+                width: 80%;
+                border-radius: 10px;
+            }
+        }
+    }
+}

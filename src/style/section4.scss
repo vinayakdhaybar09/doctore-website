@@ -1,0 +1,61 @@
+#section4 {
+    background: url('../assets/sec4.jpg') no-repeat fixed;
+    background-size: cover;
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    padding-right: 50px;
+    
+
+    p {
+        color: $color1;
+        font-size: $font5;
+        font-weight: 500;
+        line-height: 30px;
+
+        >span {
+            margin-right: 10px;
+        }
+    }
+
+    >main {
+        display: flex;
+        flex-direction: column;
+        width: 55%;
+        padding: 50px;
+        background-color: $color4;
+        height: fit-content;
+        gap: 20px;
+        border-radius: 40px 0px 40px 0px;
+
+        >h1 {
+            font-size: $font2;
+            font-family: $family-1;
+            color: $color1;
+        }
+
+        >a {
+            font-size: $font5;
+            font-weight: 600;
+            color: $color1;
+
+            >button {
+                padding: 15px 20px;
+                font-size: $font5;
+                font-weight: 600;
+                color: $color1;
+                border: none;
+                background-color: $color2;
+                transition-duration: 400ms;
+                &:hover{
+                    cursor: pointer;
+                    transform: translateY(-5px);
+                }
+            }
+        }
+    }
+
+
+}
